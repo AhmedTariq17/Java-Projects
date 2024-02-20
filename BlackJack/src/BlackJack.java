@@ -82,7 +82,7 @@ public class BlackJack {
                     g.drawImage(cardImg, cardWidth + 25 + (cardWidth + 5)*i, 20, cardWidth, cardHeight, null);
                 }
 
-                //draw player's hand
+                //draw players hand
                 for(int i = 0; i < playerHand.size(); i++) {
                     Card card = playerHand.get(i);
                     Image cardImg = new ImageIcon(getClass().getResource(card.getImagePath())).getImage();
